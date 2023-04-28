@@ -5,5 +5,5 @@ jobs :
           steps :
                 - run : node --version
                 - run : npm --version
-                - users : actions/checkout@v3
+                - uses : actions/checkout@v3
                 - run : node index.js
